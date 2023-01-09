@@ -1,4 +1,14 @@
+//Stl solved problem from hacker rank//
+
+
+
+
+
+
+
+//HACKERRANK MAP//
 #include<bits/stdc++.h>
+
 using namespace std;
 int main()
 {   map<string,int>m;
@@ -28,6 +38,8 @@ int main()
     }
 }
 
+
+//HACKERRANK VECTOR//
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -63,3 +75,76 @@ int main()
 
 
 }
+//HACKER RANK SET//
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{   set<int>s;
+    int q;
+    cin>>q;
+    while(q--)
+    {
+        int x,y;
+        cin>>y>>x;
+        if(y==1)
+        {
+            s.insert(x);
+        }
+        if(y==2)
+        {
+            s.erase(x);
+        }
+        if(y==3)
+        {
+           auto it=s.find(x);
+            if(it!=s.end())
+            {
+              cout<<"Yes"<<endl;
+            }
+            else
+            {
+                cout<<"No"<<endl;
+            }
+        }
+    
+
+    
+
+
+    }
+}
+
+//Hackerank vector sort//
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int>V;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        int x;
+        cin>>x;
+        V.push_back(x);
+
+
+    }
+    sort(V.begin(),V.end());
+    for(int i=0;i<n;i++)
+    {
+        cout<<V[i]<<" ";
+    }
+
+    
+}
+
+
+
+
+
+
+
+
