@@ -1,0 +1,98 @@
+//basics of maps
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    map<int,int>mp;
+   mp.insert({1,20});
+  mp.insert({2,30});
+    mp.insert({3,40});
+    mp.insert({4,50});
+   // mp[1]=100;
+    //for(auto it:mp)
+    //{
+    //    cout<<it.first<<" "<<it.second<<endl;
+   // }
+  //map<int,int>::iterator it;
+  // for(it=mp.begin();it!=mp.end();it++)
+  // {
+  //    cout<<it->first<<" "<<it->second<<endl;
+   //}
+   //cout<<mp.size()<<endl;
+  // mp.clear();
+  // if(mp.empty())
+  // {
+  //  cout<<"The map is empty"<<endl;
+  // }
+  // else
+  // {
+   // cout<<"Nothing"<<endl;
+   //}
+
+  // mp.erase(1);
+    //for(it=mp.begin();it!=mp.end();it++)
+   //{
+     // cout<<it->first<<" "<<it->second<<endl;
+   //}
+  // map<string,int>mp1;
+  // mp1.insert({"ab",1});
+  // mp1.insert({"abc",2});
+  // mp1.insert({"abcd",3});
+  //
+  // for(auto it:mp1)
+  // {
+  //   cout<<it.first<<" "<<it.second<<endl;
+  // }
+  // cout<<mp1.max_size()<<endl;
+  // cout<<mp1.count("ab")<<endl;
+   //cout<<mp1.find("abc")<<endl;
+   //auto it=mp1.find("abc");
+   //cout<<it<<endl;
+   //if(it==mp1.end())
+  // {
+  //  cout<<"not found"<<endl;
+   //}
+  // else
+  // {
+  //  cout<<" found at"<< (*it).first<<" "<<(*it).second<<endl;
+  // }
+  //auto it=mp.lower_bound(20);
+  //cout<<(*it).first<<" "<<(*it).second<<endl;
+   //auto it=mp.upper_bound(50);
+   //cout<<(*it).first<<" "<<(*it).second<<endl;
+    
+
+
+}
+
+
+
+//unorded maps
+
+
+/*Given N strings and Q queries.
+In each query you are given a string to print the frequency of that string*/
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+ unordered_map<string,int>m;
+ int n;
+ cin>>n;
+ for(int i=0;i<n;i++)
+ {
+    string s;
+    cin>>s;
+    m[s]++;
+ }
+ int q;
+ cin>>q;
+ while(q--)
+ {
+    string s;
+    cin>>s;
+    cout<<m[s]<<endl;
+ }
+}
