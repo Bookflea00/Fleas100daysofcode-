@@ -1,0 +1,93 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   // multimap<int,int>mp;
+   // mp.insert({1,10});
+   // mp.insert({2,20});
+   // mp.insert({3,30});
+    //mp.insert({4,40});
+   // mp.insert({1,50});
+   // mp.insert({1,60});
+   // mp.insert({2,70});
+   /// mp.insert({2,80});
+   // mp.insert({3,90});
+   // mp.insert({4,100});
+     
+    //using auto iterator
+    //for(auto it:mp)
+    //{
+   //     cout<<it.first<<" "<<it.second<<endl;
+   // }
+   // cout<<endl;
+   // cout<<mp.size()<<endl;
+   // cout<<mp.max_size()<<endl;
+    //multimap<int,int>::iterator it;
+   // for(it=mp.begin();it!=mp.end();it++)
+   // {
+   //     cout<<it->first<<" "<<it->second<<endl;
+   // }
+   // cout<<endl;
+   // mp.clear();
+   // if(mp.empty())
+   // {
+   //     cout<<"The multimap is empty"<<endl;
+   // }
+   // else
+   // {
+   ///     cout<<"The multimap is not empty"<<endl;
+   // }
+   //USING ERASE FUNCTION
+  // mp.erase(1);
+   // for(it=mp.begin();it!=mp.end();it++)
+   // {
+      //  cout<<it->first<<" "<<it->second<<endl;
+  //  }
+   // cout<<endl;
+    //USING ERASE FUNCTION TO ERAS A SPECIFIC VALUE
+   // auto it=mp.begin();
+  //  mp.erase(it);
+    // for(it=mp.begin();it!=mp.end();it++)
+   // {
+   //     cout<<it->first<<" "<<it->second<<endl;
+   // }
+   // cout<<endl;
+
+    //advance(it,2); //pinting to the second index;
+   // mp.erase(it);
+    // for(it=mp.begin();it!=mp.end();it++)
+   // {
+   //     cout<<it->first<<" "<<it->second<<endl;
+   //// }
+   // cout<<endl;
+    // cout<<mp.count(1)<<endl;
+   // auto it=mp.find(100);
+   //  if(it!=mp.end())
+   //  {
+      //  cout<<"Found at index" <<distance(mp.begin(),it);
+    // }
+    // else
+    // {
+     //   cout<<"Not found";
+    // }
+
+    //auto it=mp.upper_bound(1);
+   // cout<<it->first<<" "<<it->second<<endl;
+  // multimap<int,int>mp1;
+  // mp1=mp;
+   
+   //for(auto it:mp1)
+   //{
+   /// cout<<it.first<<" "<<it.second<<endl;
+   //}
+   //mp.swap(mp1);
+
+
+
+
+
+
+
+
+
+}
