@@ -1,0 +1,126 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   // unordered_set<int>us;
+  //  us.insert(2);
+  //  us.insert(2);
+   // us.insert(3);
+   // us.insert(4);
+   // us.insert(5);
+    //for(auto it:us)
+   // {
+   //     cout<<it<<" ";
+   // }
+    cout<<endl;
+    //unordered_set<int>::iterator it;
+   // for(it=us.begin();it!=us.end();it++)
+   // {
+     //   cout<<*it<<" "<<endl;
+  //  }
+  //cout<<us.count(2)<<endl;
+ // auto it=us.find(2);
+  
+ // if(it!=us.end())
+ // cout<<"Found at"<<distance(us.begin(),it);
+ //cout<<us.size()<<endl;
+ //us.clear();
+ //if(us.empty())
+// {
+  //  cout<<"EMPTY"<<endl;
+ //}
+ //for(auto it:us)
+ //{
+   // cout<<it<<" "<<endl;
+ //}
+ //cout<<endl;
+ //us.erase(2);
+ /// for(auto it:us)
+ //{
+  //  cout<<it<<" "<<endl;
+ //}
+ //cout<<endl;
+  // unordered_set<int>::iterator it;
+   //unordered_set<int>::iterator it2=us.begin()+2;
+  // us.erase(us.begin(),us.end());
+
+  // for(it=us.begin();it!=us.end();it++)
+//{
+    // cout<<*it<<" "<<endl;
+    //}
+    //  unordered_set<int>us2;
+   // us2.insert(20);
+   // us2.insert(20);
+   // us2.insert(30);
+   // us2.insert(40);
+   // us2.insert(50);
+   // us.swap(us2);
+   // for(auto it:us2)
+   // {
+   //     cout<<it<<" "<<endl;
+    //}
+    //cout<<us.bucket_count()<<endl;
+   // cout<<us.bucket(4)<<endl;
+    //cout<<us.bucket_size(2)<<endl;
+   //set<string>s;
+  // int n;
+  // cin>>n;
+  // for(int i=0;i<n;i++)
+  // {
+    //string str;
+    //cin>>str;
+   // s.insert(str);
+  // }
+   //for(auto it:s)
+   //{
+   // 
+   //cout<< it<<endl;
+   //}
+     
+
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+//a solved problem
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    unordered_set<string>s;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        string str;
+        cin>>str;
+        s.insert(str);
+    }
+    int q;
+    cin>>q;
+    while(q--)
+    {
+        string str;
+        cin>>str;
+        if(s.find(str)==s.end())
+        {
+            cout<<"NO"<<endl;
+        }
+        else
+        {
+            cout<<"Yes"<<endl;
+        }
+    }
+}
