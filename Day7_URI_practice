@@ -1,0 +1,99 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int count=0;
+        int x;
+        cin>>x;
+        if(x==2)
+        {
+            cout<<x<<" eh primo"<<endl;
+
+        }
+        else
+        {
+        for(int i=2;i<x;i++)
+        { if(x%i==0)
+            {
+               count=0;
+                break;
+            }
+            else
+            {
+                count=1;
+            }
+        }
+        if(count==1)
+        {
+            cout<<x<<" eh primo"<<endl;
+        }
+        else
+        {
+            cout<<x<<" nao eh primo"<<endl;
+        }}
+    }
+}
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        {
+            cout<<i<<endl;
+        }
+    }
+}
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   long long  m,n;
+   while(cin>> m >> n)
+   {
+    long long fact1=1;
+    long long fact2=1;
+    for(int i=1;i<=m;i++)
+    {
+        fact1=fact1*i;
+    }
+    for(int i=1;i<=n;i++)
+    {
+        fact2=fact2*i;
+    }
+    cout<<fact1+fact2<<endl;
+
+
+   }
+    
+}
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double r,l;
+    cin>>r>>l;
+    int ans;
+    int v;
+    v=(4/3)*(3.1415*r*r*r);
+    ans=l/v;
+    cout<<ans<<endl;
+
+}
+
+
+
+
+
+
+
